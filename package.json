@@ -1,0 +1,23 @@
+{
+  "name": "datsign",
+  "version": "1.0.0",
+  "description": "sign buffers using a dats private key",
+  "main": "index.js",
+  "bin": {
+    "datsign": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "max ogden",
+  "license": "ISC",
+  "dependencies": {
+    "dat-encoding": "^2.0.2",
+    "hypercore": "^4.7.0",
+    "level": "^1.4.0",
+    "minimist": "^1.2.0",
+    "sodium-signatures": "^1.2.2"
+  },
+  "devDependencies": {}
+}
